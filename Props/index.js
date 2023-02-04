@@ -1,25 +1,40 @@
 import React from "react";
 import ReactDom from 'react-dom';
 import Card from "./Card";
-
+import Sdata from './Sdata';
 ReactDom.render(
     <>
-    <Card imgsrc ="http://wallpapercave.com/wp/wp4056410.jpg"
-    title="A orignal series"
-    sname ="DARK"
-    link ="http://www.netflix.com/in/title/80990668?source=35"
+    <h1>List of movie</h1>
+    <Card 
+    imgsrc={Sdata[0].imgsrc}
+    title={Sdata[0].title}
+    sname ={Sdata[0].sname}
+    link ={Sdata[0].link}
     />
 
-    <Card imgsrc ="http://wallpapercave.com/wp/wp4056410.jpg"
-    title="A orignal series"
-    sname ="Pathan"
-    link ="http://www.netflix.com/in/title/80990668?source=35"
+    <Card
+    imgsrc={Sdata[1].imgsrc}
+    title={Sdata[1].title}
+    sname ={Sdata[1].sname}
+    link ={Sdata[1].link}
     />
-
-    <Card imgsrc ="http://wallpapercave.com/wp/wp4056410.jpg"
-    title="A orignal series"
-    sname ="Avenger"
-    link ="http://www.netflix.com/in/title/80990668?source=35"
+    <Card
+    imgsrc={Sdata[2].imgsrc}
+    title={Sdata[2].title}
+    sname ={Sdata[2].sname}
+    link ={Sdata[2].link}
+    />
+    <Card
+    imgsrc={Sdata[3].imgsrc}
+    title={Sdata[3].title}
+    sname ={Sdata[3].sname}
+    link ={Sdata[3].link}
+    />
+    <Card
+    imgsrc={Sdata[4].imgsrc}
+    title={Sdata[4].title}
+    sname ={Sdata[4].sname}
+    link ={Sdata[4].link}
     />
     
     </>

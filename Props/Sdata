@@ -1,0 +1,39 @@
+const Sdata = [
+{
+    sname :"DARK",
+    imgsrc :"http://wallpapercave.com/wp/wp4056410.jpg",
+    title:"A orignal series",
+    link :"http://www.netflix.com/in/title/80990668?source=35"
+},
+{
+    sname :"Avenger Endgame",
+    imgsrc :"http://wallpapercave.com/wp/wp4056410.jpg",
+    title:"A orignal series",
+    link :"http://www.netflix.com/in/title/80990668?source=35"
+},
+{
+    sname :"Pathan",
+    imgsrc :"http://wallpapercave.com/wp/wp4056410.jpg",
+    title:"A orignal series",
+    link :"http://www.netflix.com/in/title/80990668?source=35"
+},
+{
+    sname :"Delwale",
+    imgsrc :"http://wallpapercave.com/wp/wp4056410.jpg",
+    title:"A orignal series",
+    link :"http://www.netflix.com/in/title/80990668?source=35"
+},
+{
+    sname :"Boss",
+    imgsrc :"http://wallpapercave.com/wp/wp4056410.jpg",
+    title:"A orignal series",
+    link :"http://www.netflix.com/in/title/80990668?source=35"
+},
+{
+    sname :"Don",
+    imgsrc :"http://wallpapercave.com/wp/wp4056410.jpg",
+    title:"A orignal series",
+    link :"http://www.netflix.com/in/title/80990668?source=35"
+}
+]
+export default Sdata;

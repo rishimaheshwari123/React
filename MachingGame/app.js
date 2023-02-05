@@ -9,6 +9,8 @@ const SloatM = (props) =>{
   let x =  props.x;
   let y =  props.y;
   let z =  props.z;
+//or 
+  let{x,y,z} = props;
 
   if(x===y && y === z){
     return (

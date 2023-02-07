@@ -1,0 +1,28 @@
+import React, { useState } from "react";
+import './index.css';
+const App = () =>{
+    const purple ="#8e44ad";
+    const[bg, setbg]=  useState(purple);
+
+    const[Name, setName] = useState("Mat kr 🐰")
+
+    const bgBack=()=>{
+        setbg(purple);
+        setName("Tere Ko kya lagta tha 😠")
+    }
+    const bgChange = () =>{
+        let newBg = '#34495e';
+        setName("Kar diya 🚶");
+        setbg(newBg)
+    }
+
+
+    return(
+        <>
+            <div className="first"  style={{backgroundColor:bg}}>
+                <button onClick={bgChange} onDoubleClick={bgBack} >{Name}</button>
+            </div>   
+        </>
+    )
+}
+ export default App;
